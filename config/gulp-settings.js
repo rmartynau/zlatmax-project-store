@@ -32,15 +32,15 @@ export const pathtofiles = {
 	rootFolder: rootFolder,
 	srcFolder: srcFolder,
 	// Шлях до потрібної папки на віддаленому сервері.
-	ftp: ``
+	ftp: `zlatmax/${rootFolder}`
 	// Приклад: завантажити в папку 2022 далі в папку з назвою проєкту
 	// ftp: `2022/${rootFolder}`
 };
 
 // Налаштування FTP з'єднання
 export const configFTP = {
-	host: "", // Адреса FTP сервера
-	user: "", // Ім'я користувача
-	password: "", // Пароль
+	host: "vh440.timeweb.ru", // Адреса FTP сервера
+	user: "cn209366", // Ім'я користувача
+	password: "Aj7_PyfpB#8$fNn", // Пароль
 	parallel: 5 // Кількість одночасних потоків
 }
