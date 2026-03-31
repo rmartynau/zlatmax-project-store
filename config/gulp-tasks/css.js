@@ -2,6 +2,7 @@ import cleanCss from 'gulp-clean-css';
 import webpcss from 'gulp-webpcss';
 import autoprefixer from 'gulp-autoprefixer';
 import groupCssMediaQueries from 'gulp-group-css-media-queries';
+import replace from 'gulp-replace';
 
 export const css = () => {
 	return app.gulp.src(`${app.path.build.css}style.css`, {})
