@@ -1,1 +1,1 @@
-# zlatmax-project-store
+# zlatmax-project-gulp
